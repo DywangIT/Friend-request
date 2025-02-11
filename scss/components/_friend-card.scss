@@ -40,9 +40,9 @@
             height: 16px;
             border-radius: 50%;
             outline: 2px solid white;
-            & + img {
-                margin-left: -10%;
-            }
+        }
+        > * + * {
+            margin-left: -10%;
         }
     }
     &__mutual-title {

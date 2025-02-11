@@ -1271,7 +1271,7 @@ img {
   border-radius: 50%;
   outline: 2px solid white;
 }
-.friend-card__mutual-avt img + img {
+.friend-card__mutual-avt > * + * {
   margin-left: -10%;
 }
 .friend-card__mutual-title {
