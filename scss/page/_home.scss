@@ -1,0 +1,38 @@
+.container__home {
+    padding: 20px 0;
+    background: #f2f4f7;
+}
+
+.home {
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &__title {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    &__btn {
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: #0064d1;
+    }
+
+    &__line {
+        margin-left: -10px;;
+        width: calc(100% + 20px);
+        height: 1px;
+        background: #d0d3d7;
+        margin-top: 20px;
+    }
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
